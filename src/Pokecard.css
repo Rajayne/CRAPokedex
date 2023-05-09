@@ -1,0 +1,17 @@
+.Pokecard {
+    background-color: lightgray;
+    border-radius: 10px;    
+    width: 200px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.Pokecard-title {
+    color: blue;
+}
+
+.Pokecard-text {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 5px;
+    padding: 0 0 10px 0;
+}

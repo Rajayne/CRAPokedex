@@ -1,11 +1,12 @@
 import Pokecard from "./Pokecard";
+import "./Pokedex.css";
 
 const image =
   "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/";
 
 const Pokedex = ({ pokemon }) => {
   return (
-    <div>
+    <div className="Pokedex">
       {pokemon.map((p) => (
         <Pokecard
           key={p.id}
